@@ -318,12 +318,12 @@ Learned Policy:
 
 
 Average reward over last 1000 episodes: 0.96
-
+```
 
 <img width="421" height="287" alt="image" src="https://github.com/user-attachments/assets/87580d61-c8fc-41db-b560-dd384c4d03b6" />
 
 
-```
+
 
 ## Result
 
