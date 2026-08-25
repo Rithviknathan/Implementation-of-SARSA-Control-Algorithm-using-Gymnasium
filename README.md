@@ -22,7 +22,7 @@ Implement the SARSA (State-Action-Reward-State-Action) control algorithm in the 
 
 
 ## Environment Description
-Frozenlake
+FrozenLake -v1
 ```
     "FSFF",
     "FHFH",
@@ -320,7 +320,8 @@ Learned Policy:
 Average reward over last 1000 episodes: 0.96
 
 
-<img width="691" height="470" alt="image" src="https://github.com/user-attachments/assets/817dc74e-5f5a-4bd4-ac58-58a5cfeff053" />
+<img width="421" height="287" alt="image" src="https://github.com/user-attachments/assets/87580d61-c8fc-41db-b560-dd384c4d03b6" />
+
 
 ```
 
