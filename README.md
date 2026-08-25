@@ -269,7 +269,7 @@ env.close()
 ---
 
 ## Output
-
+```
 
 Final Q-table:
 [[0.627 0.395 0.818 0.557]
@@ -314,8 +314,6 @@ Average reward over last 1000 episodes: 0.96
 
 
 ```
-
----
 
 ## Result
 ```text
