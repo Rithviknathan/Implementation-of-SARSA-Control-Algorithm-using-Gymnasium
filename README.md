@@ -8,10 +8,17 @@ To implement the **SARSA control algorithm** using the Gymnasium `FrozenLake-v1`
 
 ## Problem Statement
 
+Implement the SARSA (State-Action-Reward-State-Action) control algorithm in the Gymnasium FrozenLake-v1 environment. The agent must learn the optimal action-value function (Q-table) through repeated interaction with the environment and trial-and-error learning. The objective is to learn a policy that guides the agent from the starting state to the goal while avoiding the hole states
 
 
 ## Software Requirements
 
+1. Programming Language: Python 3.x
+2. Libraries: Gymnasium, NumPy, and Matplotlib
+3. Environment: Gymnasium FrozenLake-v1
+4. Platform: Jupyter Notebook / Google Colab / Python IDE
+5. Operating System: Windows, Linux, or macOS
+6. Hardware: A computer capable of running Python and the required libraries
 
 
 ## Environment Description
@@ -313,22 +320,15 @@ Learned Policy:
 Average reward over last 1000 episodes: 0.96
 
 
+<img width="691" height="470" alt="image" src="https://github.com/user-attachments/assets/817dc74e-5f5a-4bd4-ac58-58a5cfeff053" />
+
 ```
 
 ## Result
-```text
 
-
-
-```
-
----
+The SARSA algorithm successfully learned the action-value function after 10,000 training episodes. The learned Q-table provided suitable action values for navigating through the FrozenLake environment. The resulting policy directs the agent toward the goal while avoiding the hole states. The average reward over the last 1000 episodes was 0.96, indicating that the agent consistently reached the goal after training
 
 ## Inference
-```text
 
-
-
-```
----
+The experiment shows that SARSA can effectively learn an optimal policy through repeated interaction with the environment. The epsilon-greedy strategy allows the agent to explore different actions initially and gradually exploit the actions with higher Q-values. Since SARSA updates the Q-value using the action actually selected in the next state, it is an on-policy reinforcement learning algorithm. The final reward of 1.0 confirms that the trained agent successfully learned a reliable path to the goal.
 
